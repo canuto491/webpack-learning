@@ -13,7 +13,10 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: ['css-loader']
+                use: [ // ese array ejecuta las lineas de derecha a izquierda
+                    'style-loader', // inyecta el css procesado directamente en el head del dom
+                    'css-loader' //  permite la interpretacion del css
+                ]
             }
         ]
     }
