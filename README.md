@@ -20,4 +20,5 @@ Una vez definido puede ser ejecutado desde la consola con el comando ``npm run {
 ```
 
 ## Generar dist/bundle.js
-``npm run build``
+``npm run build`` <br>
+``` npm run watch -- --mode development ```

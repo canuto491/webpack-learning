@@ -1,1 +1,1 @@
-alert('main');
+require('./main.css')
