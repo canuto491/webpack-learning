@@ -22,3 +22,24 @@ Una vez definido puede ser ejecutado desde la consola con el comando ``npm run {
 ## Generar dist/bundle.js
 ``npm run build`` <br>
 ``` npm run watch -- --mode development ```
+
+## compilar ES2015
+Guia de instalación de babel: [Babel](https://babeljs.io/setup#installation)
+1. Instalar babel
+    1. babel/core ``npm install --save-dev babel-loader @babel/core``
+    2. babel/preset-env ``npm install --save-dev @babel/preset-env``
+2. Crear en la raiz del projecto el fichero ``.babelrc`` y definir los presets de babel
+    ```
+    {
+        "presets": [
+            [
+                "@babel/preset-env",
+                {
+                    "useBuiltIns": "entry"
+                }
+            ]
+        ]
+    }
+
+    ```
+3. third

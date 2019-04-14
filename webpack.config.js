@@ -17,6 +17,11 @@ module.exports = {
                     'style-loader', // inyecta el css procesado directamente en el head del dom
                     'css-loader' //  permite la interpretacion del css
                 ]
+            },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: "babel-loader"
             }
         ]
     }
