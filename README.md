@@ -20,5 +20,4 @@ Una vez definido puede ser ejecutado desde la consola con el comando ``npm run {
 ```
 
 ## Generar dist/bundle.js
-``npm run build`` para generar el bundle <br>
-``npm run watch`` para activar e modo de compilación siempre que se actualice el fichero
+``npm run build``

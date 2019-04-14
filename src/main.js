@@ -1,1 +1,1 @@
-alert('main 2');
+alert('main');
