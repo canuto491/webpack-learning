@@ -1,0 +1,29 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "follow webpack for everyone tutorial by laracast",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "key": "echo 'hello'",
+    "build": "webpack src/main.js --output dist/bundle.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canuto491/webpack-learning.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Luis Sousa <canuto491@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canuto491/webpack-learning/issues"
+  },
+  "homepage": "https://github.com/canuto491/webpack-learning#readme"
+}
